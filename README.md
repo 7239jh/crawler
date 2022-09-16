@@ -26,15 +26,15 @@ dates=yesterday.strftime("%Y%m%d")
 chrome_path ='D:/chromedriver/chromedriver.exe' #크롬드라이버 경로
 ```
 
-## 원하는 데이터 종류 선택
-date: 기사 날짜
-title: 기사 제목
-url: 기사 url
-section: 수집한 기사의 세부섹션
-text: 기사 본문
-image: 이미지 url 
-press: 기사 언론사
-reporter: 기사 작성자
+## 수집 데이터 종류 
+date: 기사 날짜  
+title: 기사 제목  
+url: 기사 url  
+section: 수집한 기사의 세부섹션  
+text: 기사 본문  
+image: 이미지 url  
+press: 기사 언론사  
+reporter: 기사 작성자  
 ```python
 news_dict[idx] = {'date': crawling_main_date(url),
                 'title' :crawling_main_title(url) ,
@@ -45,6 +45,7 @@ news_dict[idx] = {'date': crawling_main_date(url),
                 'press':crawling_main_press(url),
                 'reporter':crawling_main_reporter(url)}
 ```
+수집을 원하지 않는 데이터는 위에서 지우면 된다.
 
 ## 수집 데이터 파일로 저장
 ```python
