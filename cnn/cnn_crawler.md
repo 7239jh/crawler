@@ -18,7 +18,7 @@ chrome_path ='D:/chromedriver/chromedriver.exe' #크롬드라이버 경로
 date: 기사 날짜  
 title: 기사 제목  
 url: 기사 url  
-section: 섹션구분이 없음 
+section: 섹션구분이 없음  
 text: 기사 본문  
 image: 이미지 url  
 press: 기사 언론사  
