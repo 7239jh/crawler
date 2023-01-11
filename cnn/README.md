@@ -35,7 +35,7 @@ news_dict[idx]={'date':span[0].text,
 수집을 원하지 않는 데이터는 위에서 지우면 된다.
 ## 수집 데이터 파일로 저장
 ```python
-xlsx_file_name = 'D:/크롤링/안보뉴스/CNN/CNN_news_{}_{}.xlsx'.format(y,m)
+xlsx_file_name = 'D:/CNN/CNN_news_{}_{}.xlsx'.format(y,m)
 news_df.to_excel(xlsx_file_name,index=False)   # 인덱스 제거하고 엑셀로 변환 
 print('엑셀 저장 완료 | 경로 : {}\n'.format(xlsx_file_name))               
 ```
